@@ -29,3 +29,24 @@ span {
     padding: 0;
     margin: 0;
 }
+
+/* Functional Class */
+.question-text {
+    display: none;
+}
+
+.close-btn {
+    display: none;
+}
+
+.show-text .question-text {
+    display: block;
+}
+
+.show-text .close-btn {
+    display: inline;
+}
+
+.show-text .open-btn {
+    display: none;
+}
